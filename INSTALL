@@ -1,5 +1,6 @@
 Requirements: Qt 5
-A recent C++ compiler supporting ANSI C++ 11. 
+A recent C++ compiler supporting ANSI C++ 11, eg g++ or visual studio 13. 
+CMake
 
 ##building project (*nix):
 mkdir build

@@ -8,3 +8,10 @@ KNOWN BUGS:
 
 rotation of a block by the side will cause a crash due to the rotation placing 
 blocks out of bounds. this is being worked on. 
+
+Info: 
+Tetris is a game first written in 1984. It is one of the best known games ever
+made and is fairly easy to implement.
+This clone makes use of the Qt graphics API to produce the GUI and for drawing. 
+Unlike many Qt projects, this clone makes no direct use of qmake, instead using
+the CMake system for maximum cross platform compatibility.
