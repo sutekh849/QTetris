@@ -1,0 +1,10 @@
+This is a clone of tetris made using Qt. 
+controls:
+Space to start game. 
+left/right for moving blocks left and right
+up key for rotating blocks.
+
+KNOWN BUGS:
+
+rotation of a block by the side will cause a crash due to the rotation placing 
+blocks out of bounds. this is being worked on. 

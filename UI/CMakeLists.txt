@@ -1,0 +1,12 @@
+find_package(Qt5Widgets)
+find_package(Qt5Core)
+set (CMAKE_AUTOMOC TRUE)
+include_directories("../Block")
+include_directories("../Shape")
+include_directories("../Game")
+set(EXTRA_LIBS ${EXTRA_LIBS} Shape)
+set(EXTRA_LIBS ${EXTRA_LIBS} Game)
+set(EXTRA_LIBS ${EXTRA_LIBS} Block)
+add_library(UI mainwindow.cpp)
+target_link_libraries(UI Qt5::Widgets Qt5::Core ${EXTRA_LIBS})
+
