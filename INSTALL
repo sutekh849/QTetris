@@ -1,0 +1,20 @@
+Requirements: Qt 5
+A recent C++ compiler supporting ANSI C++ 11. 
+
+##building project (*nix):
+mkdir build
+cd build
+cmake ..
+make 
+
+##building project (Windows):
+create build folder
+run cmake gui 
+build the visual studio project using the gui
+
+please note that this project was created on linux and has not been tested 
+elsewhere. 
+
+
+
+
